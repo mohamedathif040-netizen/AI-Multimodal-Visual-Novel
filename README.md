@@ -6,6 +6,10 @@
 # 🎮 AI Multi-Modal Visual Novel
 
 An interactive **Choose Your Own Adventure** game built with **Streamlit**, powered by **Google Gemini AI**, **Pollinations AI**, and **gTTS**. The application generates an evolving story, AI-created illustrations, and narrated audio while allowing users to shape the adventure through dynamically generated choices.
+---
+## 🌐 Live Demo
+
+🚀 https://ai-multimodal-visual-novel.streamlit.app/
 
 ---
 
