@@ -95,9 +95,16 @@ set_background()
 # ----------------------------
 @st.cache_resource
 def get_gemini_client():
-    api_key = os.getenv("GEMINI_API_KEY")
-    return genai.Client(api_key=api_key)
+    try:
+        api_key = st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        api_key = os.getenv("GEMINI_API_KEY")
 
+    if not api_key:
+        st.error("❌ GEMINI_API_KEY not found.")
+        st.stop()
+
+    return genai.Client(api_key=api_key)
 client = get_gemini_client()
 
 # ----------------------------

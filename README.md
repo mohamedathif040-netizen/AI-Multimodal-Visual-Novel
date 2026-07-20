@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Gemini AI](https://img.shields.io/badge/Gemini-AI-4285F4)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # 🎮 AI Multi-Modal Visual Novel
 
 An interactive **Choose Your Own Adventure** game built with **Streamlit**, powered by **Google Gemini AI**, **Pollinations AI**, and **gTTS**. The application generates an evolving story, AI-created illustrations, and narrated audio while allowing users to shape the adventure through dynamically generated choices.
